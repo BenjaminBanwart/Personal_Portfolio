@@ -1,0 +1,16 @@
+.navbar-dark {
+    background: #001524;
+}
+
+.nav-link {
+    color: mediumaquamarine !important;
+}
+
+body {
+    background: #001524;
+}
+
+.social {
+    position: fixed;
+    top: 32em;
+}
