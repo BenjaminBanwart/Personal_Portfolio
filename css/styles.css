@@ -8,6 +8,7 @@
 
 main {
     display: flex;
+    padding-bottom: 500em;
 }
 
 body {
@@ -16,12 +17,14 @@ body {
 
 .social {
     position: fixed;
-    top: 32em;
+    top: 80vh;
 }
 
 
 .headCont {
-
+    margin-top: 20vh;
+    margin-left: 30px;
+    margin-right: 50px;
 }
 
 .container {
@@ -43,12 +46,24 @@ body {
 }
 
 .myImageContainer {
-    width: 25em;
+    width: 42%;
+    margin-top: 10vh;
+    margin-left: 2em;
 }
 
 .myImage {
-    width: 20em;
+    width: 45em;
     border-radius: 0.5em;
     max-width: 100%;
     height: auto;
 }
+
+.p-div {
+    padding-left: 0.3em;
+    width:25em;
+}
+
+p {
+    color: #8892b0;
+}
+
