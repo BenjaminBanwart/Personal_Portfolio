@@ -61,7 +61,7 @@ body {
 
 .p-div {
     padding-left: 0.3em;
-    width:25em;
+    width:23em;
 }
 
 .p-div {
@@ -90,4 +90,19 @@ body {
     color: #a8b2d1;
     overflow-wrap: break-word;
     margin-right: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    .headCont {
+        margin-left: -25px;
+    }
+    .container2 {
+        height: 30em;
+    }
+    .skill-header {
+        margin-left: 2.5em;
+    }
+    .skill-positioning {
+        margin-left: 2.5em;
+    }
 }
