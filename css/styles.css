@@ -8,7 +8,7 @@
 
 main {
     display: flex;
-    padding-bottom: 500em;
+    padding-bottom: 25em;
 }
 
 body {
@@ -20,7 +20,6 @@ body {
     top: 80vh;
 }
 
-
 .headCont {
     margin-top: 20vh;
     margin-left: 30px;
@@ -30,6 +29,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 12vw;
 }
 
 .intro1 {
@@ -49,6 +49,7 @@ body {
     width: 42%;
     margin-top: 10vh;
     margin-left: 2em;
+    margin-bottom: 20em;
 }
 
 .myImage {
@@ -63,7 +64,30 @@ body {
     width:25em;
 }
 
-p {
+.p-div {
     color: #8892b0;
 }
 
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #001219;
+    margin-left: 18vw;
+    border-radius: 0.5em;
+    height: 20em;
+    width: 60vw;
+}
+
+.skill-header {
+    margin-top: 3em;
+    margin-left: 4.5em;
+    color: #64ffda;
+}
+
+.skill-positioning {
+    margin-top: 3.8em;
+    margin-left: 6em;
+    color: #a8b2d1;
+    overflow-wrap: break-word;
+    margin-right: 2em;
+}
