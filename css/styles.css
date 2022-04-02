@@ -131,10 +131,10 @@ body {
         margin-left: 2.5em;
     }
     .project-card {
-        width: 80vw;
+        width: 70vw;
     }
     .myImageContainer {
-        margin-bottom: 15em;
+        margin-bottom: 8em;
     }
     .container2 {
         margin-left: 20vw;
@@ -145,6 +145,10 @@ body {
     }
     .projectsh1 {
         margin-left: 25vw;
+        margin-top: 4em;
+    }
+    .p-div {
+        width: 70vw;
     }
 }
 
