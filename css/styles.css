@@ -92,6 +92,31 @@ body {
     margin-right: 2em;
 }
 
+.projects-container {
+    margin-top: 6em;
+    margin-left: 18vw;
+}
+
+.project-card {
+    background-color: #a8b2d1;
+    border-radius: 0.3em;
+}
+
+.projectsh1 {
+    margin-top: 10em;
+    margin-left: 16.5vw;
+    color: #64ffda;
+}
+
+.project-title {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.project-text {
+    padding-left: 15px;
+}
+
 @media only screen and (max-width: 600px) {
     .headCont {
         margin-left: -25px;
@@ -105,4 +130,35 @@ body {
     .skill-positioning {
         margin-left: 2.5em;
     }
+    .project-card {
+        width: 80vw;
+    }
+    .myImageContainer {
+        margin-bottom: 15em;
+    }
+    .container2 {
+        margin-left: 20vw;
+    }
+    .projects-container {
+        margin-left: 20vw;
+        margin-top: 5em;
+    }
+    .projectsh1 {
+        margin-left: 25vw;
+    }
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+a {
+    color: black;
 }
