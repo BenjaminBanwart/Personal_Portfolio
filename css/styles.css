@@ -9,6 +9,7 @@
 main {
     display: flex;
     padding-bottom: 25em;
+    max-width: 80%;
 }
 
 body {
@@ -95,11 +96,13 @@ body {
 .projects-container {
     margin-top: 6em;
     margin-left: 18vw;
+    padding-right: 0px;
 }
 
 .project-card {
     background-color: #a8b2d1;
     border-radius: 0.3em;
+    width: 60vw;
 }
 
 .projectsh1 {
@@ -131,10 +134,11 @@ body {
         margin-left: 2.5em;
     }
     .project-card {
-        width: 72vw;
+        width: 70vw;
     }
     .myImageContainer {
         margin-bottom: 8em;
+        width: 60vw;
     }
     .container2 {
         margin-left: 20vw;
@@ -142,6 +146,7 @@ body {
     .projects-container {
         margin-left: 20vw;
         margin-top: 2em;
+        width: 70vw;
     }
     .projectsh1 {
         margin-left: 25vw;
@@ -149,6 +154,12 @@ body {
     }
     .p-div {
         width: 70vw;
+    }
+    main {
+        max-width: 80%;
+    }
+    #home-section {
+        max-width: 90%;
     }
 }
 
@@ -165,4 +176,8 @@ a:active { text-decoration: none; }
 
 a {
     color: black;
+}
+
+.no-margin {
+    margin-right: 0px;
 }
