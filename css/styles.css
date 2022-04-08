@@ -123,7 +123,8 @@ body {
 @media only screen and (max-width: 600px) {
     .headCont {
         margin-left: -25px;
-        width: 95vw;
+        width: 74vw;
+        margin-right: 0px;
     }
     .container2 {
         height: 30em;
@@ -140,7 +141,7 @@ body {
     }
     .myImageContainer {
         margin-bottom: 8em;
-        width: 60vw;
+        width: 63vw;
     }
     .container2 {
         margin-left: 20vw;
@@ -159,6 +160,7 @@ body {
     }
     main {
         max-width: 80%;
+        margin-right: 0px;
     }
     #home-section {
         max-width: 90%;
