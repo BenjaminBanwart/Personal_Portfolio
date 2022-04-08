@@ -23,7 +23,7 @@ body {
 
 .headCont {
     margin-top: 20vh;
-    margin-left: 30px;
+    margin-left: 10vw;
     margin-right: 50px;
 }
 
@@ -123,9 +123,11 @@ body {
 @media only screen and (max-width: 600px) {
     .headCont {
         margin-left: -25px;
+        width: 95vw;
     }
     .container2 {
         height: 30em;
+        width: 65vw;
     }
     .skill-header {
         margin-left: 2.5em;
@@ -134,7 +136,7 @@ body {
         margin-left: 2.5em;
     }
     .project-card {
-        width: 70vw;
+        width: 75vw;
     }
     .myImageContainer {
         margin-bottom: 8em;
@@ -180,4 +182,8 @@ a {
 
 .no-margin {
     margin-right: 0px;
+}
+
+#home-section {
+    
 }
