@@ -74,6 +74,7 @@ body {
     flex-wrap: wrap;
     background-color: #001219;
     margin-left: 18vw;
+    margin-bottom: 10em;
     border-radius: 0.5em;
     height: 20em;
     width: 60vw;
@@ -120,6 +121,13 @@ body {
     padding-left: 15px;
 }
 
+@media only screen and (max-width: 1025px) {
+    .container2 {
+        height: 30em;
+        width: 65vw;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .headCont {
         margin-left: -25px;
@@ -127,7 +135,7 @@ body {
         margin-right: 0px;
     }
     .container2 {
-        height: 30em;
+        height: 40em;
         width: 65vw;
     }
     .skill-header {
@@ -165,6 +173,20 @@ body {
     #home-section {
         max-width: 90%;
         padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container2 {
+        height: 55em;
+        width: 65vw;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .container2 {
+        height: 70em;
+        width: 65vw;
     }
 }
 
