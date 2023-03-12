@@ -121,6 +121,15 @@ body {
     padding-left: 15px;
 }
 
+@media only screen and (min-width: 3018px) {
+    .myImageContainer {
+        width: 41%;
+        margin-top: 10vh;
+        margin-left: 0em;
+        margin-bottom: 20em;
+    }
+}
+
 @media only screen and (max-width: 1025px) {
     .container2 {
         height: 30em;
