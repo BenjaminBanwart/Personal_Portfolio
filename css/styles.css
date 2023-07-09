@@ -100,6 +100,12 @@ body {
     padding-right: 0px;
 }
 
+.experience-container {
+    margin-top: 6em;
+    margin-left: 18vw;
+    padding-right: 0px;
+}
+
 .project-card {
     background-color: #a8b2d1;
     border-radius: 0.3em;
@@ -107,6 +113,12 @@ body {
 }
 
 .projectsh1 {
+    margin-top: 10em;
+    margin-left: 16.5vw;
+    color: #64ffda;
+}
+
+.experienceh1 {
     margin-top: 10em;
     margin-left: 16.5vw;
     color: #64ffda;
