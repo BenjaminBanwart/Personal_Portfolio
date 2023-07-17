@@ -94,37 +94,25 @@ body {
     margin-right: 2em;
 }
 
-.projects-container {
+.projects-experience-container {
     margin-top: 6em;
     margin-left: 18vw;
     padding-right: 0px;
 }
 
-.experience-container {
-    margin-top: 6em;
-    margin-left: 18vw;
-    padding-right: 0px;
-}
-
-.project-card {
+.project-experience-card {
     background-color: #a8b2d1;
     border-radius: 0.3em;
     width: 60vw;
 }
 
-.projectsh1 {
+.projects-experience-h1 {
     margin-top: 10em;
     margin-left: 16.5vw;
     color: #64ffda;
 }
 
-.experienceh1 {
-    margin-top: 10em;
-    margin-left: 16.5vw;
-    color: #64ffda;
-}
-
-.project-title {
+.project-experience-title {
     padding-top: 5px;
     padding-left: 5px;
 }
@@ -165,7 +153,7 @@ body {
     .skill-positioning {
         margin-left: 2.5em;
     }
-    .project-card {
+    .project-experience-card {
         width: 75vw;
     }
     .myImageContainer {
@@ -175,12 +163,12 @@ body {
     .container2 {
         margin-left: 20vw;
     }
-    .projects-container {
+    .projects-experience-container {
         margin-left: 20vw;
         margin-top: 2em;
         width: 70vw;
     }
-    .projectsh1 {
+    .projects-experience-h1 {
         margin-left: 25vw;
         margin-top: 4em;
     }
