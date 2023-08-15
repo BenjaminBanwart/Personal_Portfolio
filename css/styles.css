@@ -108,6 +108,22 @@ body {
     margin-right: 2em;
 }
 
+.work-experience-date {
+    float: right;
+    margin-right: 1em;
+    margin-top: .7em;
+}
+
+.work-experience-ul {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.job-title {
+    margin-left: 5%;
+}
+
 .projects-experience-container {
     margin-top: 6em;
     margin-left: 18vw;
@@ -161,6 +177,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     .headCont {
+        margin-top: 15vh;
         margin-left: -25px;
         width: 70vw;
         margin-right: 0px;
@@ -204,6 +221,13 @@ body {
     #home-section {
         max-width: 90%;
         padding-right: 0px;
+    }
+    .work-experience-date {
+        margin-left: 30%;
+        margin-right: 0em;
+    }
+    .work-experience-ul {
+        margin-bottom: 6%;
     }
 }
 
