@@ -1,61 +1,24 @@
-.navbar-dark {
-    background: #001524;
-}
-
 .nav-link {
     color: #64ffda !important;
 }
 
-main {
-    display: flex;
-    padding-bottom: 25em;
-    max-width: 80%;
-}
-
-body {
-    background: #0a192f;
-}
-
-.social {
+.socials-container {
     position: fixed;
     top: 80vh;
 }
 
-.headCont {
-    margin-top: 25vh;
-    margin-left: 10vw;
-    margin-right: 50px;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 12vw;
-}
-
-.intro1 {
-    color: #64ffda;
-    font-family: Helvetica, sans-serif;
-}
-
-.myName {
-    color: #ccd6f6;
-}
-
-.welcome {
-    color: #a8b2d1;
+.home-section-container {
+    word-wrap: normal;
 }
 
 .myImageContainer {
-    width: 42%;
-    margin-top: 10vh;
-    margin-left: 2em;
-    margin-bottom: 20em;
+    max-width: 34rem;
+    margin-top: -10%;
+    margin-bottom: 20rem;
 }
 
 .myImage {
-    width: 45em;
-    border-radius: 0.5em;
+    border-radius: 0.5rem;
     max-width: 100%;
     height: auto;
     box-shadow:
@@ -67,20 +30,16 @@ body {
     1px 100px 80px rgba(0, 0, 0, 0.12)
 }
 
-.p-div {
-    padding-left: 0.3em;
-    width:23em;
-}
-
-.p-div {
+.intro-paragraph {
+    padding-left: 1.2rem;
+    max-width: 26rem;
     color: #8892b0;
 }
 
-.container2 {
+.about-section-container {
     display: flex;
     flex-wrap: wrap;
     background-color: #001219;
-    margin-left: 18vw;
     margin-bottom: 10em;
     border-radius: 0.5em;
     height: 20em;
@@ -108,7 +67,7 @@ body {
     margin-right: 2em;
 }
 
-.work-experience-date {
+/* .work-experience-date {
     float: right;
     margin-right: 1em;
     margin-top: .7em;
@@ -128,7 +87,7 @@ body {
     margin-top: 6em;
     margin-left: 18vw;
     padding-right: 0px;
-}
+} */
 
 .project-experience-card {
     background-color: #a8b2d1;
@@ -160,29 +119,29 @@ body {
 }
 
 @media only screen and (min-width: 3018px) {
-    .myImageContainer {
+    /* .myImageContainer {
         width: 41%;
         margin-top: 10vh;
         margin-left: 0em;
         margin-bottom: 20em;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1025px) {
-    .container2 {
+    .about-section-container {
         height: 30em;
         width: 65vw;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .headCont {
+    .home-section-container {
         margin-top: 15vh;
         margin-left: -25px;
         width: 70vw;
         margin-right: 0px;
     }
-    .container2 {
+    .about-section-container {
         height: 40em;
         width: 65vw;
     }
@@ -195,11 +154,11 @@ body {
     .project-experience-card {
         width: 75vw;
     }
-    .myImageContainer {
+    /* .myImageContainer {
         margin-bottom: 8em;
         width: 63vw;
-    }
-    .container2 {
+    } */
+    .about-section-container {
         margin-left: 20vw;
     }
     .projects-experience-container {
@@ -211,12 +170,8 @@ body {
         margin-left: 25vw;
         margin-top: 4em;
     }
-    .p-div {
+    .intro-paragraph {
         width: 70vw;
-    }
-    main {
-        max-width: 80%;
-        margin-right: 0px;
     }
     #home-section {
         max-width: 90%;
@@ -231,19 +186,19 @@ body {
     }
 }
 
-@media only screen and (max-width: 400px) {
-    .container2 {
+/* @media only screen and (max-width: 400px) {
+    .about-section-container {
         height: 55em;
         width: 65vw;
     }
 }
 
 @media only screen and (max-width: 300px) {
-    .container2 {
+    .about-section-container {
         height: 70em;
         width: 65vw;
     }
-}
+} */
 
 a:link { text-decoration: none; }
 
@@ -260,6 +215,42 @@ a {
     color: black;
 }
 
-.no-margin {
-    margin-right: 0px;
+/* Background color gradient */
+body {
+    background: hsla(216, 65%, 11%, 1);
+
+    background: linear-gradient(315deg, hsla(216, 65%, 11%, 1) 24%, hsla(196, 85%, 18%, 1) 100%);
+
+    background: -moz-linear-gradient(315deg, hsla(216, 65%, 11%, 1) 24%, hsla(196, 85%, 18%, 1) 100%);
+
+    background: -webkit-linear-gradient(315deg, hsla(216, 65%, 11%, 1) 24%, hsla(196, 85%, 18%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0A192F", endColorstr="#074054", GradientType=1 );
+}
+
+/* Scrollbar section */
+body {
+    --sb-track-color: #2F424A;
+    --sb-thumb-color: #4db6ac;
+    --sb-size: 11px;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 9px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color)
+                        var(--sb-track-color);
+    }
 }
