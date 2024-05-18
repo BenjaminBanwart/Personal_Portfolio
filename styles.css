@@ -9,12 +9,24 @@
 
 .home-section-container {
     word-wrap: normal;
+    padding-left: 10%;
+
+    @media screen and (max-width: 1025px) {
+        padding-left: 0;
+    }
 }
 
 .myImageContainer {
     max-width: 34rem;
-    margin-top: -10%;
+    margin-top: -13%;
     margin-bottom: 20rem;
+
+    @media screen and (max-width: 1025px) {
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .myImage {
@@ -119,12 +131,7 @@
 }
 
 @media only screen and (min-width: 3018px) {
-    /* .myImageContainer {
-        width: 41%;
-        margin-top: 10vh;
-        margin-left: 0em;
-        margin-bottom: 20em;
-    } */
+    
 }
 
 @media only screen and (max-width: 1025px) {
@@ -135,12 +142,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .home-section-container {
-        margin-top: 15vh;
-        margin-left: -25px;
-        width: 70vw;
-        margin-right: 0px;
-    }
     .about-section-container {
         height: 40em;
         width: 65vw;
@@ -154,10 +155,6 @@
     .project-experience-card {
         width: 75vw;
     }
-    /* .myImageContainer {
-        margin-bottom: 8em;
-        width: 63vw;
-    } */
     .about-section-container {
         margin-left: 20vw;
     }
@@ -169,13 +166,6 @@
     .projects-experience-h1 {
         margin-left: 25vw;
         margin-top: 4em;
-    }
-    .intro-paragraph {
-        width: 70vw;
-    }
-    #home-section {
-        max-width: 90%;
-        padding-right: 0px;
     }
     .work-experience-date {
         margin-left: 30%;
