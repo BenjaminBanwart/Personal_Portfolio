@@ -12,6 +12,12 @@
     padding-left: 10%;
 }
 
+.greeting-size {
+    @media screen and (max-width: 600px) {
+        font-size: 1rem;
+    }
+}
+
 .myImageContainer {
     max-width: 34rem;
     margin-top: -13%;
@@ -185,11 +191,11 @@ body {
     /* background: rgb(10,25,47);
     background: radial-gradient(circle, rgba(10,25,47,1) 78%, rgba(18,18,55,1) 100%); */
 
-    background: rgb(10,25,47);
-    background: radial-gradient(circle, rgba(10,25,47,1) 82%, rgba(23,23,41,1) 100%);
-
     /* background: rgb(10,25,47);
-    background: radial-gradient(circle, rgba(10,25,47,1) 82%, rgba(25,25,46,1) 100%); */
+    background: radial-gradient(circle, rgba(10,25,47,1) 82%, rgba(23,23,41,1) 100%); */
+
+    background: rgb(10,25,47);
+    background: radial-gradient(circle, rgba(10,25,47,1) 82%, rgba(25,25,46,1) 100%);
 }
 
 /* Scrollbar section */
