@@ -10,10 +10,6 @@
 .home-section-container {
     word-wrap: normal;
     padding-left: 10%;
-
-    @media screen and (max-width: 1025px) {
-        padding-left: 0;
-    }
 }
 
 .myImageContainer {
@@ -22,10 +18,8 @@
     margin-bottom: 20rem;
 
     @media screen and (max-width: 1025px) {
-        margin-top: 2rem;
-        margin-bottom: 10rem;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 5rem;
+        width: 90%;
     }
 }
 
@@ -49,13 +43,12 @@
 }
 
 .about-section-container {
-    display: flex;
-    flex-wrap: wrap;
     background-color: #001219;
-    margin-bottom: 10em;
-    border-radius: 0.5em;
-    height: 20em;
-    width: 60vw;
+    margin-bottom: 10rem;
+    border-radius: 7px;
+    height: fit-content;
+    padding-bottom: 2rem;
+    width: fit-content;
     box-shadow:
     1px 2.8px 2.2px rgba(0, 0, 0, 0.034),
     1px 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -65,18 +58,12 @@
     1px 100px 80px rgba(0, 0, 0, 0.12)
 }
 
-.skill-header {
-    margin-top: 3em;
-    margin-left: 4.5em;
-    color: #64ffda;
-}
-
 .skill-positioning {
-    margin-top: 3.8em;
-    margin-left: 6em;
+    margin-top: 3.8rem;
+    margin-left: 7%;
     color: #a8b2d1;
     overflow-wrap: break-word;
-    margin-right: 2em;
+    margin-right: 3%;
 }
 
 /* .work-experience-date {
@@ -135,28 +122,12 @@
 }
 
 @media only screen and (max-width: 1025px) {
-    .about-section-container {
-        height: 30em;
-        width: 65vw;
-    }
+
 }
 
 @media only screen and (max-width: 600px) {
-    .about-section-container {
-        height: 40em;
-        width: 65vw;
-    }
-    .skill-header {
-        margin-left: 2.5em;
-    }
-    .skill-positioning {
-        margin-left: 2.5em;
-    }
     .project-experience-card {
         width: 75vw;
-    }
-    .about-section-container {
-        margin-left: 20vw;
     }
     .projects-experience-container {
         margin-left: 20vw;
@@ -177,17 +148,11 @@
 }
 
 /* @media only screen and (max-width: 400px) {
-    .about-section-container {
-        height: 55em;
-        width: 65vw;
-    }
+
 }
 
 @media only screen and (max-width: 300px) {
-    .about-section-container {
-        height: 70em;
-        width: 65vw;
-    }
+    
 } */
 
 a:link { text-decoration: none; }
