@@ -19,7 +19,7 @@
 
     @media screen and (max-width: 1025px) {
         margin-top: 5rem;
-        width: 90%;
+        width: 85%;
     }
 }
 
@@ -55,7 +55,13 @@
     1px 12.5px 10px rgba(0, 0, 0, 0.06),
     1px 22.3px 17.9px rgba(0, 0, 0, 0.072),
     1px 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    1px 100px 80px rgba(0, 0, 0, 0.12)
+    1px 100px 80px rgba(0, 0, 0, 0.12);
+
+    @media screen and (max-width: 1025px) {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .skill-positioning {
@@ -64,6 +70,10 @@
     color: #a8b2d1;
     overflow-wrap: break-word;
     margin-right: 3%;
+
+    @media screen and (max-width: 1025px) {
+        margin-top: 7%;
+    }
 }
 
 /* .work-experience-date {
@@ -172,15 +182,8 @@ a {
 
 /* Background color gradient */
 body {
-    background: hsla(216, 65%, 11%, 1);
-
-    background: linear-gradient(315deg, hsla(216, 65%, 11%, 1) 24%, hsla(196, 85%, 18%, 1) 100%);
-
-    background: -moz-linear-gradient(315deg, hsla(216, 65%, 11%, 1) 24%, hsla(196, 85%, 18%, 1) 100%);
-
-    background: -webkit-linear-gradient(315deg, hsla(216, 65%, 11%, 1) 24%, hsla(196, 85%, 18%, 1) 100%);
-
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0A192F", endColorstr="#074054", GradientType=1 );
+    background: rgb(10,25,47);
+    background: radial-gradient(circle, rgba(10,25,47,1) 78%, rgba(18,18,55,1) 100%);
 }
 
 /* Scrollbar section */
