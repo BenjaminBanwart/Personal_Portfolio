@@ -1,0 +1,199 @@
+.nav-link {
+    color: #64ffda !important;
+}
+
+.socials-container {
+    position: fixed;
+    top: 80vh;
+}
+
+.home-section-container {
+    word-wrap: normal;
+    padding-left: 10%;
+}
+
+.greeting-size {
+    @media screen and (max-width: 600px) {
+        font-size: 1rem;
+    }
+}
+
+.myImageContainer {
+    max-width: 34rem;
+    margin-top: -13%;
+
+    @media screen and (max-width: 1025px) {
+        margin-top: 5rem;
+        width: 85%;
+    }
+}
+
+.myImage {
+    border-radius: 0.5rem;
+    max-width: 100%;
+    height: auto;
+    box-shadow:
+    1px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    1px 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    1px 12.5px 10px rgba(0, 0, 0, 0.06),
+    1px 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    1px 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    1px 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.intro-paragraph {
+    padding-left: 1.2rem;
+    max-width: 26rem;
+    color: #8892b0;
+}
+
+.about-section-container {
+    margin-bottom: 32rem;
+    background-color: #001219;
+    border-radius: 7px;
+    height: fit-content;
+    padding-bottom: 2rem;
+    width: fit-content;
+    box-shadow:
+    1px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    1px 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    1px 12.5px 10px rgba(0, 0, 0, 0.06),
+    1px 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    1px 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    1px 100px 80px rgba(0, 0, 0, 0.12);
+
+    @media screen and (max-width: 1025px) {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.skill-positioning {
+    margin-top: 3.8rem;
+    margin-left: 7%;
+    color: #a8b2d1;
+    overflow-wrap: break-word;
+    margin-right: 3%;
+
+    @media screen and (max-width: 1025px) {
+        margin-top: 7%;
+    }
+}
+
+.work-experience-date {
+    float: right;
+    margin-right: 1em;
+    margin-top: .7em;
+}
+
+.work-experience-ul {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+    @media screen and (max-width: 600px) {
+        margin-left: 10%;
+    }
+}
+
+.experience-h1 {
+    margin-left: 10%;
+    color: #64ffda;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Barlow', sans-serif;
+}
+
+.experience-container {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (max-width: 600px) {
+        margin-top: 2rem;
+    }
+}
+
+.project-experience-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #a8b2d1;
+    border-radius: 0.3rem;
+    width: 70%;
+    box-shadow:
+    1px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    1px 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    1px 12.5px 10px rgba(0, 0, 0, 0.06),
+    1px 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    1px 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    1px 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.project-experience-title {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.project-text {
+    padding-left: 15px;
+}
+
+li {
+    font-size: 17px;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+a {
+    color: black;
+}
+
+/* Background color gradient */
+body {
+    /* background: rgb(10,25,47);
+    background: radial-gradient(circle, rgba(10,25,47,1) 78%, rgba(18,18,55,1) 100%); */
+
+    background: rgb(10,25,47);
+    background: radial-gradient(circle, rgba(10,25,47,1) 82%, rgba(23,23,41,1) 100%);
+
+    /* background: rgb(10,25,47);
+    background: radial-gradient(circle, rgba(10,25,47,1) 82%, rgba(25,25,46,1) 100%); */
+}
+
+/* Scrollbar section */
+body {
+    --sb-track-color: #2F424A;
+    --sb-thumb-color: #4db6ac;
+    --sb-size: 11px;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 9px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color)
+                        var(--sb-track-color);
+    }
+}

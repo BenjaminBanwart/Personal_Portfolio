@@ -1,257 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="description" content="Benjamin Banwart's personal portfolio website. Software Engineer website for general purpose. Holds Benjamin's skills, projects, and resume.">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Benjamin's Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="./images/benji-icon-aqua.png">
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CHR0D286QB"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+	<head>
+		<meta name="description" content="Benjamin Banwart's personal portfolio website. Software Engineer website for general purpose. Holds Benjamin's skills, projects, and resume.">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cutive+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<title>Benjamin's Portfolio</title>
+		<link rel="icon" type="image/x-icon" href="./images/benji-icon-aqua.png">
+		<link rel="stylesheet" href="styles.css">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-CHR0D286QB"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-      gtag('config', 'G-CHR0D286QB');
-    </script>
-  </head>
-  <body>
-    <!--navbar-->
+			gtag('config', 'G-CHR0D286QB');
+		</script>
+	</head>
+	<body>
+		<!--navbar-->
+		<nav class="navbar navbar-expand-lg" style="background: #001524">
+			<div class="container-fluid">
+				<!--logo-->
+				<a class="navbar-brand" href="#"><img src="./images/benji-icon-aqua.png" alt="logo" height="37"></a>
+				<!--Home, About, and Projects links-->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" style="font-family: 'Open Sans', sans-serif" aria-current="page" href="#home-section">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" style="font-family: 'Open Sans', sans-serif" href="#about-section">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" style="font-family: 'Open Sans', sans-serif" href="#experience-section">Experience</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" style="font-family: 'Open Sans', sans-serif" href="#projects-section">Projects</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" style="font-family: 'Open Sans', sans-serif" aria-current="page" target="_blank" href="./BenjaminBanwart_Resume.pdf">Resume</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <!--logo-->
-        <a class="navbar-brand" href="#"><img src="./images/benji-icon-aqua.png" alt="logo" height="37"></a>
-        <!--Home, About, and Projects links-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home-section">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about-section">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience-section">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects-section">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" target="_blank" href="./BenjaminBanwart_Resume.pdf">Resume</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <main>
+		<!--home section-->
+		<div class="container" style="padding-bottom: 25rem">
+			<div id="home-section" class="row" style="margin-top: 25%; margin-bottom: 32rem">
+				<div class="home-section-container col-md-5">
+					<div>
+						<h5 class="greeting-size" style="color: #64ffda; font-family: 'Poppins', sans-serif">Hello there, my name is</h5>
+					</div>
+					<div>
+						<h2 style="color: #ccd6f6; padding-left: .2rem">Benjamin Banwart</h2>
+					</div>
+					<div>
+						<h1 style="color: #a8b2d1; padding-left: .6rem; font-family: 'Barlow', sans-serif">Welcome to my site</h1>
+					</div>
+					<div class="intro-paragraph">
+						<p>
+							I work as a Software Engineer for Miller's Professional Imaging and thoroughly enjoy my craft
+						</p>
+					</div>
+				</div>
+				<div class="myImageContainer col-md-4 mx-auto">
+					<img
+						src="./images/me-side.jpg"
+						alt="personal picture"
+						class="myImage img-fluid"
+					/>
+				</div>
+			</div>
 
-      <!--home section-->
-      <div>
-      <div class="container" id="home-section">
-        <div class="headCont">
-          <div>
-            <h5 class="intro1">Hello there, my name is</h5>
-          </div>
-          <div>
-            <h2 class="myName">Benjamin Banwart</h2>
-          </div>
-          <div>
-            <h1 class="welcome">Welcome to my site</h1>
-          </div>
-          <div class="p-div">
-            <p>I'm a Software Engineer, and graduate of the Kansas State University
-              Full-Stack Software Development Certificate Program. I work as a full-time
-              Engineer for Miller's Professional Imaging and thoroughly enjoy my craft.
-            </p>
-          </div>
-        </div>
-        <div class="myImageContainer">
-          <img
-            src="./images/Banwart,Benji-012-min.jpg"
-            alt="personal picture"
-            class="myImage .img-fluid"
-          />
-        </div>
-      </div>
+			<!--about section-->
+			<div class="about-section-container" id="about-section">
+				<h2 style="padding-top: 2.5rem; padding-left: 5%; color: #64ffda; font-family: 'Barlow', sans-serif">Technology Experience</h2>
+				<div class="skill-positioning">
+					<p style="font-family: 'Cutive Mono', monospace">JavaScript, TypeScript, Microsoft Azure, C#, .NET, Angular, CSS, HTML, IIS, CircleCI, Python, VS Code, Visual Studio, Flask, Jinja,
+						AWS, MongoDB, SQL, PostgreSQL, PgAdmin, ElephantSQL, MS SQL, Postman, Trello, Netlify, Sequelize, NodeJS, Git, API's, XML, Nuget, NPM,
+						.NET Core, ASP.NET, Razor Pages, Mongoose, React, Redux, Heroku, AWS Elastic Beanstalk, Microsoft Azure Web App, Linux,
+						MacOS, Windows, Agile, SQL Server, Dapper, SASS, SCSS, Axios, Express JS, Bootstrap
+					</p>
+				</div>
+			</div>
 
-      <!--about section-->
-      <div class="container2" id="about-section">
-        <div class="skill-header">
-          <h2>Technologies I've worked with</h2>
-        </div>
-        <div class="skill-positioning">
-          <p>JavaScript, TypeScript, Microsoft Azure, C#, .NET, Angular, CSS, HTML, CircleCI, Python, VS Code, Visual Studio, Flask, Jinja,
-              AWS, MongoDB, SQL, PostgreSQL, PgAdmin, ElephantSQL, MS SQL, Postman, Trello, Netlify, Sequelize, NodeJS, Git, API's, XML, Nuget, NPM,
-              .NET Core, ASP.NET, Razor Pages, Mongoose, React, Redux, Heroku, AWS Elastic Beanstalk, Microsoft Azure Web App, Linux,
-              MacOS, Windows, Agile, SQL Server, Dapper, SASS, SCSS, Axios, Express JS, Bootstrap</p>
-        </div>
-      </div>
+			<!--work experience section-->
+			<h1 class="experience-h1" id="experience-section">Work Experience</h1>
+			<div class="experience-container" style="margin-bottom: 24rem">
 
-      <!--work experience section-->
-      <h1 class="projects-experience-h1" id="experience-section">Work Experience</h1>
-      <div class="container projects-experience-container">
-        <div class="row g-4 no-margin">
+				<div class="project-experience-card" style="display: flex;">
+					<div class="col-9" style="margin-top: 1%;">
+						<h3 class="project-experience-title"><a target="_blank" href="https://www.mpix.com/">Miller's Professional Imaging / Mpix</a></h3>
+						</br>
 
-          <div class="project-experience-card" style="display: flex;">
-            <div class="col-9" style="margin-top: 1%;">
-              <h3 class="project-experience-title"><a target="_blank" href="https://www.mpix.com/">Miller's Professional Imaging / Mpix</a></h3>
-              </br>
+						<h5 style="margin-left: 5%;">Software Engineer</h5>
+						<ul class="work-experience-ul">
+							<li>One of two engineers responsible for tooling at Miller's</li>
+							<li style="margin-top: 1rem; margin-bottom: 1rem">Made a large impact on the automation of identifying, quarantining, and
+								responding toward fraudulent accounts and orders resulting in lower product waste and fewer orders placed
+								with stolen credit cards</li>
+							<li style="margin-bottom: 1rem">Craft and maintain an internal tool suite that encompasses the workflows of the majority of the teams at
+								Miller's, including applications like account management for customer service, credit memo tooling for
+								accounting, robust product management systems for business administrators, and order lookup with live
+								tracking for production</li>
+							<li>Responsible for building and managing projects from architecting to deployment</li>
+							<li>Lead an initiative to gather many of the companyʼs many internal tools and bring them under one roof while
+								re-writing and modernizing each</li>
+							<li>Design user friendly interfaces and workflows for the various teams at Millerʼs</li>
+							<li>Participate in system design discussions within a team setting</li>
+							<li>Critical bug fixes in large collection of repositories</li>
+							<li>Develop intricatae tooling systems that support a highly complex product system</li>
+							<li>Engage in agile development collaboration with team of engineers</li>
+						</ul>
+					</div>
+					<div class="col-3" style="margin-top: 1%;">
+						<h6 class="work-experience-date">June 2023 - present</h6>
+					</div>
+				</div>
 
-              <h5 class="job-title">Software Engineer</h5>
-              <ul class="work-experience-ul">
-                <li>Built application to gather key production data and send it out in automated emails</li>
-                <li>Develop business aiding features on already existing projects</li>
-                <li>Critical bug fixes in large collection of repositories</li>
-                <li>Develop systems based off of a highly complex product system</li>
-                <li>Build and manage projects from ground to deployment</li>
-                <li>Constant agile development collaboration with team of engineers</li>
-              </ul>
+				<div class="project-experience-card" style="display: flex;">
+					<div class="col-9" style="margin-top: 1%;">
+						<h3 class="project-experience-title"><a target="_blank" href="https://www.hairbowcenter.com/">Hairbow Center</a></h3>
+						</br>
 
-            </div>
-            <div class="col-3" style="margin-top: 1%;">
-              <h6 class="work-experience-date">June 2023 - present</h6>
-            </div>
-          </div>
+						<h5 style="margin-left: 5%;">Software Developer</h5>
+						<ul class="work-experience-ul">
+							<li>Write Jinja templates in ERP system</li>
+							<li>Advise web design</li>
+							<li>UI/UX</li>
+							<li>Continue with previous responsibilities</li>
+						</ul>
+						<h5 style="margin-left: 5%;">Catalog Listing Assistant</h5>
+						<ul class="work-experience-ul">
+							<li>List highly detailed and niche products on Amazon, Etsy, Walmart</li>
+							<li>Communicate regularly with the product analyst and the sales department in creating the varying products
+							with details that are oriented for sales optimization</li>
+							<li>Fix broken listings and update prices to increase profit margins</li>
+						</ul>
+						<h5 style="margin-left: 5%;">Warehouse Laborer</h5>
+						<ul class="work-experience-ul">
+							<li>Worked in product production and conversion</li>
+							<li>Converted large product units to multiple smaller product units while operating a machine</li>
+							<li>Kept shelves saturated with products for pickers</li>
+							<li>Troubleshot inventory errors using an online SKU-based inventory management system and communication
+							with co-workers</li>
+						</ul>
+					</div>
+					<div class="col-3" style="margin-top: 1%;">
+						<h6 class="work-experience-date">April 2014 - June 2023</h6>
+					</div>
+				</div>
 
-          <div class="project-experience-card" style="display: flex;">
-            <div class="col-9" style="margin-top: 1%;">
-              <h3 class="project-experience-title"><a target="_blank" href="https://www.hairbowcenter.com/">Hairbow Center</a></h3>
-              </br>
+				<div class="project-experience-card" style="display: flex;">
+					<div class="col-9" style="margin-top: 1%;">
+						<h3 class="project-experience-title"><a target="_blank" href="https://www.sekan.com/">Sekan Printing and Occasion Shops</a></h3>
+						</br>
 
-              <h5 class="job-title">Software Developer</h5>
-              <ul class="work-experience-ul">
-                <li>Write Jinja templates in ERP system</li>
-                <li>Advise web design</li>
-                <li>UI/UX</li>
-                <li>Continue with previous responsibilities</li>
-              </ul>
-              <h5 class="job-title">Catalog Listing Assistant</h5>
-              <ul class="work-experience-ul">
-                <li>List highly detailed and niche products on Amazon, Etsy, Walmart</li>
-                <li>Communicate regularly with the product analyst and the sales department in creating the varying products
-                  with details that are oriented for sales optimization</li>
-                <li>Fix broken listings and update prices to increase profit margins</li>
-              </ul>
-              <h5 class="job-title">Warehouse Laborer</h5>
-              <ul class="work-experience-ul">
-                <li>Worked in product production and conversion</li>
-                <li>Converted large product units to multiple smaller product units while operating a machine</li>
-                <li>Kept shelves saturated with products for pickers</li>
-                <li>Troubleshot inventory errors using an online SKU-based inventory management system and communication
-                  with co-workers</li>
-              </ul>
+						<h5 style="margin-left: 5%;">Software Developer Contract</h5>
+						<ul class="work-experience-ul">
+							<li>Develop task automation web applications for product creation on multiple sales channels</li>
+							<li>Working with third party APIs and creating local API infrastructure</li>
+							<li>Created a front end/back end web app as a portal for Sekan to view, use, and manage software</li>
+							<li>Setup Microsoft Azure for company</li>
+							<li>Developed web scraper to aid in repetitive tasks while purchasing supplies</li>
+							<li>Created data collection web application</li>
+						</ul>
+					</div>
+					<div class="col-3" style="margin-top: 1%;">
+						<h6 class="work-experience-date">July 2022 - June 2023</h6>
+					</div>
+				</div>
 
-            </div>
-            <div class="col-3" style="margin-top: 1%;">
-              <h6 class="work-experience-date">April 2014 - June 2023</h6>
-            </div>
-          </div>
+			</div>
 
-          <div class="project-experience-card" style="display: flex;">
-            <div class="col-9" style="margin-top: 1%;">
-              <h3 class="project-experience-title"><a target="_blank" href="https://www.sekan.com/">Sekan Printing and Occasion Shops</a></h3>
-              </br>
+			<!--projects section-->
+			<h1 class="experience-h1" id="projects-section">Notable Projects</h1>
+			<div class="experience-container">
+				<div class="row g-4">
 
-              <h5 class="job-title">Software Developer Contract</h5>
-              <ul class="work-experience-ul">
-                <li>Develop task automation web applications for product creation on multiple sales channels</li>
-                <li>Working with third party APIs and creating local API infrastructure</li>
-                <li>Created a front end/back end web app as a portal for Sekan to view, use, and manage software</li>
-                <li>Setup Microsoft Azure for company</li>
-                <li>Developed web scraper to aid in repetitive tasks while purchasing supplies</li>
-                <li>Created data collection web application</li>
-              </ul>
+					<div class="col-12 project-experience-card">
+						<h3 class="project-experience-title"><a target="_blank" href="https://github.com/BenjaminBanwart/Pokemon_Battle_Game">Pokemon_Battle_Game</a></h3>
+						<p class="project-text">Pokemon_Battle_Game is a simulation of a pokemon battle from the original Pokemon 
+							games. In this game, the user is prompted to choose three pokemon that he or she will use to fight against 
+							a computer player's (CPU) three randomly selected pokemon. The user fights against the CPU with these three 
+							pokemon until either team's three pokemon faint. Whichever team is left standing wins! This game is written 
+							in pure JavaScript, CSS, and HTML and runs in the browser. It is hosted and live using Github Pages.
+						</p>
+					</div>
 
-            </div>
-            <div class="col-3" style="margin-top: 1%;">
-              <h6 class="work-experience-date">July 2022 - June 2023</h6>
-            </div>
-          </div>
+					<div class="col-12 project-experience-card">
+						<h3 class="project-experience-title"><a target="_blank" href="https://github.com/BenjaminBanwart/MERNstagram">MERNstagram</a></h3>
+						<p class="project-text">MERNstagram is a PERN-stack application that was created as a milestone project 
+							for my course at KSU. It was created in collaboration with three other classmates simulating a dev 
+							team environment. This project was very instrumental in showing all of us how to properly function 
+							as a team and properly use all of the different version control features of git. The technologies used 
+							in development include P:postgreSQL, E:Express, R:React, N:Node.js, ElephantSQL, PgAdmin, Material-UI, 
+							and Axios. The application is built as a monorepo in the github repository and is deployed in three 
+							locations. The client side, or front-end, is hosted on Netlify, the server, or back-end, is hosted on 
+							Heroku, and the SQL database is hosted with ElephantSQL.
+						</p>
+					</div>
 
-        </div>
-      </div>
+				</div>
+			</div>
+		</div>
 
-      <!--projects section-->
-      <h1 class="projects-experience-h1" id="projects-section">Notable Projects</h1>
-        <div class="container projects-experience-container">
-          <div class="row g-4 no-margin">
+		<!--social media links-->
+		<div class="card socials-container" style="width: 4rem;">
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item">
+					<a class="" href="https://github.com/BenjaminBanwart" target="_blank"><img src="./images/GitHub-Mark-64px-min.png" alt="github logo" height="25em"></a>
+				</li>
+				<li class="list-group-item">
+					<a class="" href="https://www.linkedin.com/in/benjamin-banwart-490736224/" target="_blank"><img src="./images/LI-In-Bug-min.png" alt="linkedIn logo" height="25em"></a>
+				</li>
+				<li class="list-group-item">
+					<a class="" href="https://www.instagram.com/benjamin_banwart/" target="_blank"><img src="./images/Instagram_Glyph_Gradient_RGB-min.png" alt="instagram logo" height="25em"></a>
+				</li>
+			</ul>
+		</div>
 
-            <div class="col-12 project-experience-card">
-                <h3 class="project-experience-title"><a target="_blank" href="https://github.com/BenjaminBanwart/Project-REST-Rant">REST-Rant</a></h3>
-                <p class="project-text">REST-Rant is a full stack application that allows users to perform full CRUD 
-                  operations (create, read, update, delete) to create reviews on anything they would like. The 
-                  reviews can be manipulated as data and can even hold comments, specific to each review. The 
-                  technologies that this project utilizes include: Bootstrap, MongoDB, Express, NodeJS, JSX, 
-                  method-override, dotenv, and express-react-views. The application is hosted and live on Heroku.</p>
-            </div>
-
-            <div class="col-12 project-experience-card">
-              <h3 class="project-experience-title"><a target="_blank" href="https://github.com/BenjaminBanwart/MERNstagram">MERNstagram</a></h3>
-              <p class="project-text">MERNstagram is a PERN-stack application that was created as a milestone project 
-                for my course at KSU. It was created in collaboration with three other classmates simulating a dev 
-                team environment. This project was very instrumental in showing all of us how to properly function 
-                as a team and properly use all of the different version control features of git. The technologies used 
-                in development include P:postgreSQL, E:Express, R:React, N:Node.js, ElephantSQL, PgAdmin, Material-UI, 
-                and Axios. The application is built as a monorepo in the github repository and is deployed in three 
-                locations. The client side, or front-end, is hosted on Netlify, the server, or back-end, is hosted on 
-                Heroku, and the SQL database is hosted with ElephantSQL.</p>
-            </div>
-
-            <div class="col-12 project-experience-card">
-              <h3 class="project-experience-title"><a target="_blank" href="https://github.com/BenjaminBanwart/bread">Bread-CRUD</a></h3>
-              <p class="project-text">Bread-CRUD is a full stack application that functions as a bakery. All of the 
-                different data relationships are shown throughout the application where every bread has a baker, and 
-                every baker could have baked multiple breads. The user can "order" a bread and choose which baker they 
-                would like to bake his or her bread. The technologies that this project utilizes include: Bootstrap, 
-                MongoDB, Express, NodeJS, JSX, method-override, dotenv, and express-react-views. The application is 
-                hosted and live on Heroku.</p>
-            </div>
-
-            <div class="col-12 project-experience-card">
-              <h3 class="project-experience-title"><a target="_blank" href="https://github.com/BenjaminBanwart/Pokemon_Battle_Game">Pokemon_Battle_Game</a></h3>
-              <p class="project-text">Pokemon_Battle_Game is a simulation of a pokemon battle from the original Pokemon 
-                games. In this game, the user is prompted to choose three pokemon that he or she will use to fight against 
-                a computer player's (CPU) three randomly selected pokemon. The user fights against the CPU with these three 
-                pokemon until either team's three pokemon faint. Whichever team is left standing wins! This game is written 
-                in pure JavaScript, CSS, and HTML and runs in the browser. It is hosted and live using Github Pages.</p>
-            </div>
-
-            <div class="col-12 project-experience-card">
-              <h3 class="project-experience-title"><a target="_blank" href="https://github.com/BenjaminBanwart/Books_API">Books-API</a></h3>
-              <p class="project-text">Books-API  is a JavaScript API that users can send requests to. The database that it 
-                interacts with currently stores data and information about books. The database used is a MongoDB database 
-                and the application is hosted and live on Heroku. Enter this link into the browser searchbar to send a 
-                request to the API:<br> https://books-api-project-1.herokuapp.com/books . The API returns an array of data 
-                back to the user and displays it as JSON in the browser.</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <!--social media links-->
-    <div class="card social" style="width: 4rem;">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-          <a class="" href="https://github.com/BenjaminBanwart" target="_blank"><img src="./images/GitHub-Mark-64px-min.png" alt="github logo" height="25em"></a>
-        </li>
-        <li class="list-group-item">
-          <a class="" href="https://www.linkedin.com/in/benjamin-banwart-490736224/" target="_blank"><img src="./images/LI-In-Bug-min.png" alt="linkedIn logo" height="25em"></a>
-        </li>
-        <li class="list-group-item">
-          <a class="" href="https://www.instagram.com/benjamin_banwart/" target="_blank"><img src="./images/Instagram_Glyph_Gradient_RGB-min.png" alt="instagram logo" height="25em"></a>
-        </li>
-      </ul>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</body>
 </html>
