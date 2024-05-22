@@ -90,6 +90,10 @@
     }
 }
 
+.work-experience-li {
+    margin-top: 1rem;
+}
+
 .experience-h1 {
     margin-left: 10%;
     color: #64ffda;
