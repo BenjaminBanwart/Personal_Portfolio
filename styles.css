@@ -82,8 +82,12 @@
 }
 
 .work-experience-ul {
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 3%;
+
+    @media screen and (max-width: 600px) {
+        margin-top: 5%;
+    }
 }
 
 .experience-h1 {
