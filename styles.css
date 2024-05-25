@@ -176,6 +176,47 @@ a {
     color: black;
 }
 
+.contact-form {
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    background-color: #001219;
+
+    @media screen and (max-width: 600px) {
+        max-width: 90%;
+    }
+}
+
+.email-field {
+    width: 45%;
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
+}
+
+.name-field {
+    width: 30%;
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
+}
+
+input::placeholder {
+    color: white !important;
+}
+
+.submit-button {
+    background-color: #64ffda;
+    color: #001219;
+    float: right;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+}
+
 /* Background color gradient */
 body {
     /* background: rgb(10,25,47);
