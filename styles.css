@@ -196,6 +196,14 @@ a {
     }
 }
 
+.name-field {
+    width: 30%;
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
+}
+
 input::placeholder {
     color: white !important;
 }

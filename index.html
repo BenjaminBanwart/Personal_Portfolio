@@ -231,15 +231,22 @@
 
 			<div class="card border-warning contact-form">
 				<h3 style="margin-bottom: 3rem; color: #64ffda">Contact Me</h3>
-				<form>
+				<form action="https://formsubmit.co/benjibanwart@gmail.com" method="POST">
+					<div class="mb-3">
+						<label for="nameControl" style="color: #a8b2d1" class="form-label">Name</label>
+						<input type="text" name="name" class="form-control bg-dark text-white name-field" id="nameControl" aria-describedby="name" placeholder="john smith">
+					</div>
 					<div class="mb-3">
 						<label for="emailControl" style="color: #a8b2d1" class="form-label">Email address</label>
-						<input type="email" class="form-control bg-dark text-white email-field" id="emailControl" aria-describedby="email" placeholder="name@example.com">
+						<input type="email" name="email" class="form-control bg-dark text-white email-field" id="emailControl" aria-describedby="email" placeholder="name@example.com">
 					</div>
 					<div class="mb-3">
 						<label for="messageControl" style="color: #a8b2d1" class="form-label">Message</label>
-						<textarea class="form-control bg-dark text-white" id="messageControl" rows="3"></textarea>
+						<textarea name="message" class="form-control bg-dark text-white" id="messageControl" rows="3"></textarea>
 					</div>
+					<input type="hidden" name="_subject" value="BenjiBanwart.dev">
+					<input type="text" name="_honey" style="display:none">
+					<input type="hidden" name="_template" value="box">
 					<button type="submit"  class="btn submit-button">Submit</button>
 				</form>
 			</div>
