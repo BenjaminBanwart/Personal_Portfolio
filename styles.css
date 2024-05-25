@@ -217,6 +217,11 @@ input::placeholder {
     font-family: 'Barlow', sans-serif;
 }
 
+.submit-button:hover {
+    background-color: #98ecd9;
+    color: #001219;
+}
+
 /* Background color gradient */
 body {
     /* background: rgb(10,25,47);
