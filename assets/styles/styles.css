@@ -543,6 +543,42 @@ p {
   }
 }
 
+/* Add a new media query for laptops and smaller screens */
+@media screen and (max-width: 1500px) {
+  .socials-container {
+    left: 0.5rem; /* Smaller left margin */
+  }
+
+  .home-section {
+    margin-left: 1rem;
+  }
+
+  .experience-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-header {
+    margin-left: 1rem;
+  }
+}
+
+/* Improve home section text positioning on smaller screens */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  .name-heading {
+    font-size: 3.5rem; /* Slightly smaller heading */
+  }
+  
+  .title-heading {
+    font-size: 2.5rem; /* Slightly smaller title */
+  }
+  
+  .intro-paragraph {
+    max-width: 25rem; /* Narrower paragraph width */
+  }
+}
+
 /* Scrollbar styles */
 body {
   --sb-track-color: rgba(0, 0, 0, 0.2);
